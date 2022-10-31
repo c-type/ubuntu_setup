@@ -67,3 +67,23 @@ sudo apt install steam-installer -y
 
 # VLC
 sudo apt install vlc -y
+
+# Python
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt update
+sudo apt install python3.8 -y
+sudo apt install python-is-python3 -y
+
+# pip
+sudo apt install python3-pip -y
+
+# ipython
+pip install ipython
+
+# Mendeley
+sudo mkdir $HOME/Mendeley
+sudo wget https://desktop-download.mendeley.com/download/apt/pool/main/m/mendeleydesktop/mendeleydesktop_1.19.4-stable_amd64.deb -P $HOME/Mendeley
+cd $HOME/Mendeley
+sudo apt install ./mendeleydesktop_1.19.4-stable_amd64.deb -y
+sudo apt --fix-broken install -y
