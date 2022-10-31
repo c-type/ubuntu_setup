@@ -55,3 +55,15 @@ sudo apt-get install terminator -y
 
 # Install KeePassXC
 sudo apt install keepassxc -y
+
+# Install Sublime Texteditor
+sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common -y
+curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
+sudo apt install sublime-text -y
+
+# Install Steam
+sudo apt install steam-installer -y
+
+# VLC
+sudo apt install vlc -y
