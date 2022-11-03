@@ -78,8 +78,16 @@ sudo apt install python-is-python3 -y
 # pip
 sudo apt install python3-pip -y
 
+# python packages
+pip install numpy
+pip install pytest
+
 # ipython
 pip install ipython
+
+# libfuse2
+sudo add-apt-repository universe
+sudo apt install libfuse2 -y
 
 # Mendeley
 sudo mkdir $HOME/Mendeley
@@ -87,3 +95,6 @@ sudo wget https://desktop-download.mendeley.com/download/apt/pool/main/m/mendele
 cd $HOME/Mendeley
 sudo apt install ./mendeleydesktop_1.19.4-stable_amd64.deb -y
 sudo apt --fix-broken install -y
+
+# VLC
+sudo apt-get install vlc -y
