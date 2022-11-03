@@ -92,9 +92,6 @@ sudo apt install libfuse2 -y
 # Mendeley
 sudo mkdir $HOME/Mendeley
 sudo wget https://desktop-download.mendeley.com/download/apt/pool/main/m/mendeleydesktop/mendeleydesktop_1.19.4-stable_amd64.deb -P $HOME/Mendeley
-cd $HOME/Mendeley
-sudo apt install ./mendeleydesktop_1.19.4-stable_amd64.deb -y
-sudo apt --fix-broken install -y
-
+# Follow steps here to actually install Mendeley https://askubuntu.com/questions/1405042/how-to-install-mendeley-on-ubuntu-22-04
 # VLC
 sudo apt-get install vlc -y
