@@ -2,7 +2,6 @@
 
 # Install NeoVim
 ## Install NeoVim itself
-sudo apt-get install neovim -y
 sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:neovim-ppa/stable
 sudo apt-get update
